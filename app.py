@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 import plotly.express as px
 import plotly.graph_objects as go
