@@ -1,6 +1,7 @@
 streamlit
 pandas
-google-cloud-bigquery
-google-generativeai
+google-genai
 plotly
 Pillow
+folium
+streamlit-folium
