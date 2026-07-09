@@ -33,7 +33,12 @@ st.set_page_config(layout="wide", page_title="AeroWatch AI", page_icon="🌍")
 GOOGLE_API_KEY = "AQ.Ab8RN6JVzc3HFcr_kKEhyfT1Wdmm9ycdrBvbX1Y_qrIE1ElBMw"
 PROJECT_ID = "aerowatch-air-quality"
 try:
-client = genai.Client(api_key=GOOGLE_API_KEY)
+    # Indented by 4 spaces
+    client = genai.Client(api_key=GOOGLE_API_KEY)
+except Exception as e:
+    # Handle the error (e.g., using Streamlit's error box)
+    st.error(f"Failed to initialize Gemini Client: {e}")
+
 except:
 pass
 
