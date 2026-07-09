@@ -30,7 +30,7 @@ st.set_page_config(layout="wide", page_title="AeroWatch AI", page_icon="🌍")
 # ==============================================================================
 # 1. CORE SYSTEM ARCHITECTURE & INITIALIZATION
 # ==============================================================================
-GOOGLE_API_KEY = "YOUR_AI_STUDIO_API_KEY"
+GOOGLE_API_KEY = "AQ.Ab8RN6JVzc3HFcr_kKEhyfT1Wdmm9ycdrBvbX1Y_qrIE1ElBMw"
 PROJECT_ID = "aerowatch-air-quality"
 try:
 client = genai.Client(api_key=GOOGLE_API_KEY)
